@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+/*Header section*/
+
+header{
+    margin-top: 25px;
+}
+.logo{
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.logo img{
+    padding: 15px;
+}
+nav{
+    flex-basis: 70%;
+    max-width: 70%;
+}
+nav ul{
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  #323337;
+    padding-left: 60px;
+}
+nav ul li a:hover{
+	color: #0c66ff;
+	transition-duration: 0.2s;
+}
+
+/*Header section*/
+
+
+hr{
+	margin-bottom: 65px;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*Banner Section*/
+
+.banner h1{
+    color: #0f2656;
+    font-size: 45px;
+}
+
+.banner span{
+
+color: #008aff;
+
+line-height: 1.7;
+}
+
+.banner p{
+    line-height: 1.7;
+}
+.banner img{
+    margin-top: 30px;
+    max-width: 55%;
+}
+
+/*Banner Section*/
+
+
+
+
+
+/*About-us Section*/
+
+.about-us{
+    margin-top: 30px;
+}
+.left-side{
+	flex-basis: 50%;
+	max-width: 50%;
+	text-align: right;
+	padding-right: 20px;
+}
+.left-side h1{
+    font-size: 45px;
+    color: #f15767;
+}
+.left-side p{
+    line-height: 1.7;
+}
+
+.right-side{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding-left: 20px;
+}
+.right-side h1{
+    color: #0f2656;
+    font-size: 45px;
+}
+.right-side p{}
+
+
+/*About-us Section*/
+
+
+/*Service Section*/
+
+.services{
+    padding: 50px 0;
+}
+.col{
+	flex-basis: 33.33%;
+	max-width: 33.33%;
+	padding: 15px;
+}
+
+.box{
+    padding: 35px 15px;
+}
+
+.box img{
+	height: 240px;
+}
+
+.box h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box p{
+    color: #00000091;
+    line-height: 1.4;
+}
+
+.color1{
+	background: #fdebed;
+}
+
+.color2{
+	background: #ebf9f4;
+}
+.color3{
+	background: #fff7e8;
+}
+
+/*Service Section*/
+
+
+
+
+/*Footer Section*/
+
+footer{
+    margin-top: 65px;
+    margin-bottom: 40px;
+    background: #008aff;
+    padding: 30px 0px;
+}
+
+footer p{
+	text-align: center;
+	color: #85d2ff;
+}
+
+footer span{
+	color: white;
+}
+
+/*Footer Section*/
